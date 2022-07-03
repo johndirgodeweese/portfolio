@@ -1,6 +1,7 @@
 header {
     margin: 1rem;
     text-align: center;
+    border: 1px solid black;
 }
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
