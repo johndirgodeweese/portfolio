@@ -23,25 +23,29 @@ a:link {
 }
 a:visited {
     text-decoration: none;
-    color: red:
+    color: red;
 }
 a:hover {
     font-weight: bold;
     background-color: rgb(253, 223, 184);
-} 
+}
 a:active {
     text-decoration: underline;
 }
 p {
     margin: 1rem;
 }
+.job_title {
+  font-weight: bold;
+  color: #7b3101;
+}
 table {
     border-style: solid;
-    border-color: #563c23
+    border-color: #563c23;
     border-spacing: 0px;
 }
 tr td {
     border-style: solid;
     border-color: #ae8157;
-    padding: 5px;
+    padding: 2px;
 }
