@@ -12,13 +12,12 @@ body {
 }
 nav {
   height: 3rem;
-  background-color: #EAA866;
+  background-color: #f6d9bc;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
-
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", serif;
@@ -33,6 +32,7 @@ h2 {
 }
 a {
     padding: 0.25rem;
+    color: black;
 }
 a:link {
     text-decoration: none;
@@ -43,6 +43,7 @@ a:visited {
 a:hover {
     font-weight: bold;
     background-color: rgb(253, 223, 184);
+    transition: font-weight 1s ease-in 1s;
 }
 a:active {
     text-decoration: underline;
@@ -54,13 +55,17 @@ p {
   font-weight: bold;
   color: #7b3101;
 }
-table {
-    border-style: solid;
+table, th, td {
+    border: 1px solid;
     border-color: #563c23;
-    border-spacing: 0px;
-}
-tr td {
-    border-style: solid;
-    border-color: #ae8157;
+    border-collapse: collapse;
     padding: 2px;
+    width: 50%;
+}
+tr:nth-child(odd) {
+  background-color: rgb(253, 223, 184);
+}
+td:hover {
+  font-weight: bold;
+  transition: font-weight 1s ease-in 1s;
 }
